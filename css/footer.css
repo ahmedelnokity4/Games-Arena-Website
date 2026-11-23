@@ -1,0 +1,73 @@
+.site-footer {
+  background-color: var(--main-dark);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.footer-brand {
+  color: var(--accent-lime);
+  font-size: 1.25rem;
+  font-weight: 800;
+  transition: opacity 0.25s ease;
+}
+
+.footer-brand:hover {
+  color: var(--accent-lime);
+  opacity: 0.85;
+}
+
+.footer-desc {
+  color: var(--text-muted-custom);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 260px;
+}
+
+.footer-social {
+  color: var(--text-muted-custom);
+  font-size: 1.15rem;
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.footer-social:hover {
+  color: var(--accent-lime);
+  transform: translateY(-2px);
+}
+
+.footer-title {
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+.footer-link {
+  color: var(--text-muted-custom);
+  font-size: 0.92rem;
+  transition:
+    color 0.25s ease,
+    padding-left 0.25s ease;
+}
+
+.footer-link:hover {
+  color: var(--accent-lime);
+  padding-left: 4px;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border-subtle);
+}
+
+.copyright-text {
+  color: var(--text-muted-custom);
+  font-size: 0.88rem;
+}
+
+.footer-bottom-link {
+  color: var(--text-muted-custom);
+  font-size: 0.88rem;
+  transition: color 0.25s ease;
+}
+
+.footer-bottom-link:hover {
+  color: var(--accent-lime);
+}

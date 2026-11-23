@@ -1,0 +1,50 @@
+.custom-navbar {
+  background-color: var(--main-dark);
+  border-bottom: 1px solid var(--border-subtle);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.custom-navbar .navbar-brand {
+  color: var(--accent-lime);
+  font-weight: var(--font-weight-bold);
+  font-size: 1.25rem;
+}
+
+.custom-navbar .nav-link {
+  color: var(--text-white);
+  font-weight: 500;
+  margin-right: 12px;
+  transition: color 0.2s ease;
+}
+
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link:hover {
+  color: var(--accent-lime);
+}
+
+.nav-icon-btn {
+  color: var(--text-white);
+  font-size: 1.15rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-icon-btn:hover {
+  color: var(--accent-lime);
+}
+
+.btn-signin {
+  background-color: var(--accent-lime);
+  color: var(--main-dark);
+  font-weight: var(--font-weight-bold);
+  padding: 8px 22px;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-signin:hover {
+  background-color: var(--color-primary-hover);
+  color: var(--main-dark);
+}

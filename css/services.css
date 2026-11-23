@@ -1,0 +1,99 @@
+.services-section {
+  background-color: var(--main-dark);
+  color: var(--text-white);
+}
+
+.heading-line-left,
+.heading-line-right {
+  height: 2px;
+  width: 35px;
+  display: inline-block;
+}
+
+.heading-line-left {
+  background: linear-gradient(90deg, transparent, var(--primary-lime));
+}
+
+.heading-line-right {
+  background: linear-gradient(90deg, var(--primary-lime), transparent);
+}
+
+.text-highlight {
+  color: var(--primary-lime);
+}
+
+.service-card {
+  position: relative;
+  border: 1px solid var(--border-subtle);
+  transition: all 0.35s ease;
+  background-color: var(--bg-card-surface);
+}
+
+.service-card:hover {
+  border-color: var(--primary-lime);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(var(--primary-lime-rgb), 0.12);
+}
+
+.service-card::before,
+.service-card::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+  border-style: solid;
+}
+
+.service-card::before {
+  top: 14px;
+  left: 14px;
+  border-width: 18px 18px 0 0;
+  border-color: var(--primary-lime) transparent transparent transparent;
+}
+
+.service-card::after {
+  bottom: 14px;
+  right: 14px;
+  border-width: 0 0 18px 18px;
+  border-color: transparent transparent var(--primary-lime) transparent;
+}
+
+.service-card:hover::before,
+.service-card:hover::after {
+  opacity: 1;
+}
+
+.service-icon-box {
+  width: 56px;
+  height: 56px;
+  background-color: var(--bg-icon-box);
+  color: var(--primary-lime);
+  font-size: 1.45rem;
+  transition: all 0.35s ease;
+}
+
+.service-card:hover .service-icon-box {
+  background-color: var(--primary-lime);
+  color: var(--main-dark);
+}
+
+.service-card-title {
+  font-size: 1.15rem;
+  line-height: 1.4;
+  color: var(--text-white);
+}
+
+.section-divider {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--primary-lime) 25%,
+    var(--primary-lime) 75%,
+    transparent 100%
+  );
+  box-shadow: 0 0 25px 4px rgba(var(--primary-lime-rgb), 0.35);
+}
