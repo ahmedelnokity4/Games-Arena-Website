@@ -3,7 +3,7 @@
   padding-top: 120px;
   padding-bottom: 80px;
   color: var(--color-light);
-  background-image: linear-gradient(rgba(11, 14, 20, 0.85), rgba(11, 14, 20, 0.85)),url("/images/hero-bg.jpg");
+  background-image: linear-gradient(rgba(11, 14, 20, 0.85), rgba(11, 14, 20, 0.85)),url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
